@@ -1,0 +1,17 @@
+gthumb/
+dconf/
+gnome-games/
+go/
+gtk-3.0/
+kde.org/
+libreoffice/
+mpv/
+nwg-look/
+procps/
+pulse/
+systemd/
+xfce4/
+xsettingsd/
+yay/
+mimeapps.list
+QtProject.conf

@@ -1,0 +1,27 @@
+set number
+set relativenumber
+set clipboard=unnamedplus
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+nnoremap & 1
+vnoremap & 1
+nnoremap é 2
+vnoremap é 2
+nnoremap " 3
+vnoremap " 3
+nnoremap ' 4
+vnoremap ' 4
+nnoremap ( 5
+vnoremap ( 5
+nnoremap - 6
+vnoremap - 6
+nnoremap è 7
+vnoremap è 7
+nnoremap _ 8
+vnoremap _ 8
+nnoremap ç 9
+vnoremap ç 9
+nnoremap à 0
+vnoremap à 0

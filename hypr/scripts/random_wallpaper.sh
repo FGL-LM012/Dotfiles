@@ -3,7 +3,7 @@
 sleep 0.1 
 
 # Path to your wallpapers directory
-WALLPAPER_DIR="$HOME/Pictures/wallpapers/walls-catppuccin-mocha"
+WALLPAPER_DIR="$HOME/Pictures/wallpapers"
 # Time interval in seconds to change wallpapers 
 INTERVAL=$1
 

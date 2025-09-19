@@ -404,3 +404,8 @@ desc = "Move in relative steps"
 on = [ "ç" ]
 run = "plugin relative-motions 9"
 desc = "Move in relative steps"
+
+[[manager.prepend_keymap]]
+on = [ "<C-g>" ] 
+run = "plugin set-wallpaper"
+desc = "Set selected image as wallpaper"

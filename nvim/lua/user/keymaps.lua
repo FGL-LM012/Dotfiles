@@ -29,7 +29,6 @@ vim.keymap.set({ "n", "v" }, "ç", "9") -- ç -> 9
 vim.keymap.set({ "n", "v" }, "à", "0") -- à -> 0
 vim.keymap.set({ "n", "v" }, "ù", "%") -- ù -> %
 
-
 -- Center cursor when scrolling half-page up/down
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
@@ -45,5 +44,3 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- Paste over selection without losing clipboard content (deletes to black hole register)
 -- P.S. Greatest remap ever according to ThePrimeagen
 vim.keymap.set("x", "<leader>p", [["_dP]])
-
-vim.keymap.set({ "i", "c", "v", "n" }, "<C-c>", "<Esc>")

@@ -27,6 +27,7 @@
   normal-foreground:           @foreground;
   alternate-urgent-foreground: @red;
   alternate-active-foreground: @blue;
+  border-radius: 10px;
 }
 element {
     padding: 1px ;
@@ -155,7 +156,7 @@ entry {
     cursor:            text;
     spacing:           0;
     placeholder-color: Gray;
-    placeholder:       "Type to filter";
+    placeholder:       "Filter";
 }
 prompt {
     spacing:    0;
@@ -167,3 +168,18 @@ textbox-prompt-colon {
     str:        ":";
     text-color: inherit;
 }
+
+
+configuration {
+    kb-custom-accept: "";
+    kb-mode-complete: "";
+    kb-secondary-copy: "";
+    font: "JetBrainsMono Nerd Font 14";
+    kb-row-down: "Control+n";
+    kb-row-up:   "Control+p";
+    kb-accept-entry: "Control+y,Return";
+    kb-page-next: "Alt+n";
+    kb-page-prev: "Alt+p";
+}
+
+

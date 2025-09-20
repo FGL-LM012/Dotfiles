@@ -1,0 +1,9 @@
+keybinding:
+  universal:
+     jumpToBlock:
+      - "&"
+      - "é"
+      - '"'
+      - "'"
+      - "("
+     focusMainView: "à"

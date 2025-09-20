@@ -1,10 +1,10 @@
 return {
 	"catppuccin/nvim",
-	name = "catppuccin", -- optional, avoids name clashes
-	priority = 1000, -- load before all other plugins
+	name = "catppuccin",
+	priority = 1000,
 	config = function()
 		require("catppuccin").setup({
-			flavour = "mocha", -- latte, frappe, macchiato, mocha
+			flavour = "mocha",
 			transparent_background = false,
 			integrations = {
 				treesitter = true,
@@ -29,7 +29,12 @@ return {
 				which_key = true,
 				nvimtree = true,
 				mini = true,
-            }
+			},
+			custom_highlights = function(colors)
+				return {
+					LineNr = { fg = "#9399b2" }, -- relative lines color
+				}
+			end,
 		})
 
 		-- set colorscheme

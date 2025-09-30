@@ -45,8 +45,8 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.opt.tabstop = 4 -- number of visual spaces per TAB
-vim.opt.shiftwidth = 4 -- number of spaces to use for each step of (auto)indent
+vim.opt.tabstop = 2 -- number of visual spaces per TAB
+vim.opt.shiftwidth = 2 -- number of spaces to use for each step of (auto)indent
 vim.opt.expandtab = true -- convert tabs to spaces
 
 -- Sets how neovim will display certain whitespace characters in the editor.
@@ -68,3 +68,6 @@ vim.opt.scrolloff = 10
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 vim.opt.confirm = true
+
+-- Disable the intro screen entirely
+vim.opt.shortmess:append({ I = true })

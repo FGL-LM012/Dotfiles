@@ -180,6 +180,9 @@ configuration {
     kb-accept-entry: "Control+y,Return";
     kb-page-next: "Alt+n";
     kb-page-prev: "Alt+p";
+    kb-remove-char-back: "BackSpace";
+    kb-clear-line: "Shift+BackSpace";
+    kb-cancel: "Escape";    
 }
 
 

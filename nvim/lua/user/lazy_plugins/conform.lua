@@ -14,6 +14,7 @@ return {
 				css = { "prettier" },
 				javascript = { "prettier" },
 				typescript = { "prettier" },
+				python = { "black" },
 			},
 			format_on_save = true,
 		})

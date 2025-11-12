@@ -1,0 +1,52 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.13 (PyCharmLearningProject)" />
+      <type value="Python SDK" />
+      <version value="Python 3.13.7" />
+      <homePath value="$USER_HOME$/.cache/JetBrains/PyCharm2025.2/demo/PyCharmLearningProject/.venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.13" type="simple" />
+            <root url="file:///usr/lib/python3.13/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2025.2/demo/PyCharmLearningProject/.venv/lib/python3.13/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2025.2/python_stubs/543567156" type="simple" />
+            <root url="file://$USER_HOME$/Miscellaneous/pycharm-2025.2.4/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/.cache/JetBrains/PyCharm2025.2/demo/PyCharmLearningProject" SDK_UUID="a7b17cd8-f4a3-4749-abe3-5f2cbd638fd7">
+        <setting name="FLAVOR_ID" value="VirtualEnvSdkFlavor" />
+        <setting name="FLAVOR_DATA" value="{}" />
+      </additional>
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.13 (JupyterProject)" />
+      <type value="Python SDK" />
+      <version value="Python 3.13.7" />
+      <homePath value="$USER_HOME$/PycharmProjects/JupyterProject/.venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.13" type="simple" />
+            <root url="file:///usr/lib/python3.13/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/JupyterProject/.venv/lib/python3.13/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2025.2/python_stubs/-36787030" type="simple" />
+            <root url="file://$USER_HOME$/Miscellaneous/pycharm-2025.2.4/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/JupyterProject" SDK_UUID="29998693-3064-4228-84b0-8bc43751b5e9">
+        <setting name="FLAVOR_ID" value="VirtualEnvSdkFlavor" />
+        <setting name="FLAVOR_DATA" value="{}" />
+      </additional>
+    </jdk>
+  </component>
+</application>

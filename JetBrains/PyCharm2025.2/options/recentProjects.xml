@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/.cache/JetBrains/PyCharm2025.2/demo/PyCharmLearningProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="PyCharmLearningProject – welcome.py" hidden="true" projectWorkspaceId="34yr5cj7LDQcVjig8gDhWLIRTSw">
+              <option name="activationTimestamp" value="1762452701797" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="10" y="20" width="1236" height="676" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762196471725" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/JupyterProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="JupyterProject – sample.ipynb" projectWorkspaceId="357ERXyWBPut8c7JSUiIGWfCAjp">
+              <option name="activationTimestamp" value="1762452951073" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="10" y="20" width="1236" height="676" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762452702065" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/JupyterProject" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+  </component>
+</application>

@@ -1,0 +1,67 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="6" l="1762452619929" />
+    </e>
+    <e n="AIAssistantHubPopupAction">
+      <i c="1" l="1762452754657" />
+    </e>
+    <e n="Debug">
+      <i c="1" l="1762452376245" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="1" l="1762452404116" />
+    </e>
+    <e n="EditorEnter">
+      <i c="1" l="1762452612545" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1762452652801" />
+    </e>
+    <e n="EditorLeft">
+      <i c="4" l="1762452489539" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="1" l="1762452490580" />
+    </e>
+    <e n="NewDirectoryProject">
+      <i c="3" l="1762452672368" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="1" l="1762452640722" />
+    </e>
+    <e n="NotebookRunCellSelectBelowAction">
+      <i c="2" l="1762452723189" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1762448544085" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1762452352838" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1762452648856" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="12" l="1762452633051" />
+    </e>
+    <e n="Stop">
+      <i c="3" l="1762452393522" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1762452946072" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1762196459195" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1762452946715" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="12" l="1762452669910" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="4" l="1762452671400" />
+    </e>
+  </component>
+</application>

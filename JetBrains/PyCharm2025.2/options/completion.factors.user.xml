@@ -1,0 +1,34 @@
+<application>
+  <component name="ApplicationUserFactors">
+    <factor id="completionFinishedType">
+      <dailyData date="06-11-2025">
+        <observation name="explicitSelect" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="06-11-2025">
+        <observation name="BASIC" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="06-11-2025">
+        <observation name="count" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="06-11-2025">
+        <observation name="0" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="06-11-2025">
+        <observation name="1" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="templatesUsage">
+      <dailyData date="06-11-2025">
+        <observation name="totalStartingWithPrefix" value="1.0" />
+      </dailyData>
+    </factor>
+  </component>
+</application>

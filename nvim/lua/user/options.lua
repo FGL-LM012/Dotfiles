@@ -14,8 +14,7 @@ vim.opt.mouse = ""
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 
--- Disable line wrapping - j/k navigation jumps over entire wrapped lines
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.

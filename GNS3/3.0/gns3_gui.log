@@ -1,0 +1,9 @@
+2025-12-15 15:09:24 INFO logger.py:126 Log level: INFO
+2025-12-15 15:09:24 INFO main.py:270 GNS3 GUI version 3.0.5
+2025-12-15 15:09:24 INFO main.py:271 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-12-15 15:09:24 INFO main.py:272 Application started with /usr/bin/gns3
+2025-12-15 15:09:24 WARNING __init__.py:1252 Another GNS3 GUI is already running. Continue?
+2025-12-15 15:09:26 INFO local_server.py:289 Not the main GUI, will not auto start the server
+2025-12-15 15:09:26 INFO http_client.py:561 Authenticated with controller localhost on port 3080 
+2025-12-15 15:09:29 INFO controller.py:456 Listening for controller notifications on ws://localhost:3080/v3/notifications/ws
+2025-12-15 15:09:29 INFO project.py:666 Listening for project notifications on ws://localhost:3080/v3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/notifications/ws

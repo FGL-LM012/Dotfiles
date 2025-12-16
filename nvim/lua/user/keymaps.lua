@@ -42,5 +42,4 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- Paste over selection without losing clipboard content (deletes to black hole register)
--- P.S. Greatest remap ever according to ThePrimeagen
 vim.keymap.set("x", "<leader>p", [["_dP]])

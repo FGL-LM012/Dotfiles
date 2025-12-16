@@ -1,0 +1,1021 @@
+2025-12-15 13:15:56 WARNING config.py:250 No configuration file could be found or read
+2025-12-15 13:15:56 INFO server.py:234 GNS3 server version 3.0.5
+2025-12-15 13:15:56 INFO server.py:236 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-12-15 13:15:56 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
+2025-12-15 13:15:56 INFO server.py:257 Running with Python 3.13.7 and has PID 2459
+2025-12-15 13:15:56 INFO server.py:87 Current locale is en_US.UTF-8
+2025-12-15 13:15:56 INFO server.py:275 Using system certificate store for SSL connections
+2025-12-15 13:15:56 INFO server.py:288 Starting server on 0.0.0.0:3080
+2025-12-15 13:15:57 INFO server.py:83 Started server process [2459]
+2025-12-15 13:15:57 INFO on.py:48 Waiting for application startup.
+2025-12-15 13:15:57 INFO migration.py:207 Context impl SQLiteImpl.
+2025-12-15 13:15:57 INFO migration.py:210 Will assume non-transactional DDL.
+2025-12-15 13:15:57 INFO tasks.py:88 Current database revision is None
+2025-12-15 13:15:57 INFO migration.py:207 Context impl SQLiteImpl.
+2025-12-15 13:15:57 INFO migration.py:210 Will assume non-transactional DDL.
+2025-12-15 13:15:57 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
+2025-12-15 13:15:57 INFO __init__.py:71 Loading controller vars file "/home/lm001/.config/GNS3/3.0/gns3_controller.vars"
+2025-12-15 13:15:57 INFO __init__.py:75 Controller is starting
+2025-12-15 13:15:57 INFO __init__.py:355 Installing base configs in '/home/lm001/GNS3/configs'
+2025-12-15 13:15:57 INFO __init__.py:382 Installing custom symbols in '/home/lm001/GNS3/symbols'
+2025-12-15 13:15:57 INFO __init__.py:369 Installing built-in disks in '/home/lm001/GNS3/images/QEMU'
+2025-12-15 13:15:57 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 13:15:57 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 13:15:57 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 13:15:57 INFO compute.py:74 Create compute local
+2025-12-15 13:15:57 INFO on.py:62 Application startup complete.
+2025-12-15 13:15:57 INFO server.py:215 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
+2025-12-15 13:15:58 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:15:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:15:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:15:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:15:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:15:58 INFO compute.py:375 Connecting to compute 'local'
+2025-12-15 13:15:58 INFO websockets_impl.py:272 ('127.0.0.1', 36064) - "WebSocket /v3/compute/notifications/ws" [accepted]
+2025-12-15 13:15:58 INFO notifications.py:43 New client 127.0.0.1:36064 has connected to compute WebSocket
+2025-12-15 13:15:58 INFO server.py:643 connection open
+2025-12-15 13:15:58 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-12-15 13:16:02 INFO images.py:163 Discovering images in '/home/lm001/GNS3/images/QEMU'
+2025-12-15 13:16:02 INFO images.py:163 Discovering images in '/home/lm001/GNS3/images/IOS'
+2025-12-15 13:16:02 INFO images.py:163 Discovering images in '/home/lm001/GNS3/images/IOU'
+2025-12-15 13:16:02 INFO tasks.py:231 Monitoring for new images in '/home/lm001/GNS3/images'
+2025-12-15 13:16:07 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:07 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:07 INFO websockets_impl.py:272 ('127.0.0.1', 57910) - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzM1OH0.5YyV7DGKROqlq7OZ_P07Cs5-WrsPK8kuQnOD7pP-q0M" [accepted]
+2025-12-15 13:16:07 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:07 INFO server.py:643 connection open
+2025-12-15 13:16:07 INFO project.py:78 Project 6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf with path '/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf' created
+2025-12-15 13:16:07 INFO controller.py:214 New client 127.0.0.1:57910 has connected to controller WebSocket
+2025-12-15 13:16:07 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:45055 with working directory /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips
+2025-12-15 13:16:07 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:45055', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:07 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/dynamips_i1_stdout.txt
+2025-12-15 13:16:07 INFO hypervisor.py:130 Dynamips process started PID=2533
+2025-12-15 13:16:07 INFO __init__.py:338 Hypervisor 127.0.0.1:45055 has successfully started
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:45055 after 0.1861 seconds
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:07 INFO router.py:244 Router c7200 "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa] has been created
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter C7200-IO-FE inserted into slot 0
+2025-12-15 13:16:07 INFO router.py:564 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: RAM updated from 256MB to 512MB
+2025-12-15 13:16:07 INFO router.py:592 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NVRAM updated from 128KB to 512KB
+2025-12-15 13:16:07 INFO router.py:535 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image"
+2025-12-15 13:16:07 INFO router.py:939 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: disk0 updated from 64MB to 0MB
+2025-12-15 13:16:07 INFO router.py:990 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: auto delete disks enabled
+2025-12-15 13:16:07 INFO router.py:1093 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: MAC address updated from ca01.09e5.0000 to ca01.0501.0000
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-A1 inserted into slot 1
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-FE-TX inserted into slot 2
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-2FE-TX inserted into slot 3
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-GE inserted into slot 4
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-4T+ inserted into slot 5
+2025-12-15 13:16:07 INFO router.py:1181 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: adapter PA-8T inserted into slot 6
+2025-12-15 13:16:07 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:34545 with working directory /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips
+2025-12-15 13:16:07 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', '127.0.0.1:34545', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:07 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/dynamips_i2_stdout.txt
+2025-12-15 13:16:07 INFO hypervisor.py:130 Dynamips process started PID=2561
+2025-12-15 13:16:07 INFO __init__.py:338 Hypervisor 127.0.0.1:34545 has successfully started
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:34545 after 0.0103 seconds
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:07 INFO router.py:244 Router c3725 "RB-1" [b922c079-de16-4970-b392-52b9b5d55913] has been created
+2025-12-15 13:16:07 INFO router.py:592 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NVRAM updated from 112KB to 256KB
+2025-12-15 13:16:07 INFO router.py:535 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image"
+2025-12-15 13:16:07 INFO router.py:712 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: idle-PC set to 0x60c09aa0
+2025-12-15 13:16:07 INFO router.py:939 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: disk0 updated from 16MB to 0MB
+2025-12-15 13:16:07 INFO router.py:990 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: auto delete disks enabled
+2025-12-15 13:16:07 INFO router.py:1093 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: MAC address updated from c202.0a01.0000 to c202.051d.0000
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: adapter NM-4T inserted into slot 1
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: adapter NM-4T inserted into slot 2
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: WIC-1T inserted into WIC slot 0
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: WIC-1T inserted into WIC slot 1
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: WIC-1T inserted into WIC slot 2
+2025-12-15 13:16:07 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:40775 with working directory /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips
+2025-12-15 13:16:07 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i3_log.txt', '-H', '127.0.0.1:40775', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:07 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/dynamips_i3_stdout.txt
+2025-12-15 13:16:07 INFO hypervisor.py:130 Dynamips process started PID=2589
+2025-12-15 13:16:07 INFO __init__.py:338 Hypervisor 127.0.0.1:40775 has successfully started
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:40775 after 0.0103 seconds
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:07 INFO router.py:244 Router c3725 "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a] has been created
+2025-12-15 13:16:07 INFO router.py:592 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NVRAM updated from 112KB to 256KB
+2025-12-15 13:16:07 INFO router.py:535 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image"
+2025-12-15 13:16:07 INFO router.py:712 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: idle-PC set to 0x60c09aa0
+2025-12-15 13:16:07 INFO router.py:939 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: disk0 updated from 16MB to 0MB
+2025-12-15 13:16:07 INFO router.py:990 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: auto delete disks enabled
+2025-12-15 13:16:07 INFO router.py:1093 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: MAC address updated from c203.0a1d.0000 to c203.0544.0000
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: adapter NM-4T inserted into slot 1
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: adapter NM-4T inserted into slot 2
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: WIC-1T inserted into WIC slot 0
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: WIC-1T inserted into WIC slot 1
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: WIC-1T inserted into WIC slot 2
+2025-12-15 13:16:07 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:40519 with working directory /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips
+2025-12-15 13:16:07 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i4_log.txt', '-H', '127.0.0.1:40519', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:07 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/dynamips_i4_stdout.txt
+2025-12-15 13:16:07 INFO hypervisor.py:130 Dynamips process started PID=2617
+2025-12-15 13:16:07 INFO __init__.py:338 Hypervisor 127.0.0.1:40519 has successfully started
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:40519 after 0.0105 seconds
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:07 INFO router.py:244 Router c3725 "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6] has been created
+2025-12-15 13:16:07 INFO router.py:592 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NVRAM updated from 112KB to 256KB
+2025-12-15 13:16:07 INFO router.py:535 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image"
+2025-12-15 13:16:07 INFO router.py:712 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: idle-PC set to 0x60c09aa0
+2025-12-15 13:16:07 INFO router.py:939 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: disk0 updated from 16MB to 0MB
+2025-12-15 13:16:07 INFO router.py:990 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: auto delete disks enabled
+2025-12-15 13:16:07 INFO router.py:1093 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: MAC address updated from c204.0a39.0000 to c204.056a.0000
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: adapter NM-4T inserted into slot 1
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: adapter NM-4T inserted into slot 2
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: WIC-1T inserted into WIC slot 0
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: WIC-1T inserted into WIC slot 1
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: WIC-1T inserted into WIC slot 2
+2025-12-15 13:16:07 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:52675 with working directory /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips
+2025-12-15 13:16:07 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i5_log.txt', '-H', '127.0.0.1:52675', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:07 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/dynamips_i5_stdout.txt
+2025-12-15 13:16:07 INFO hypervisor.py:130 Dynamips process started PID=2645
+2025-12-15 13:16:07 INFO __init__.py:338 Hypervisor 127.0.0.1:52675 has successfully started
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:52675 after 0.0106 seconds
+2025-12-15 13:16:07 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:07 INFO router.py:244 Router c3725 "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8] has been created
+2025-12-15 13:16:07 INFO router.py:592 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NVRAM updated from 112KB to 256KB
+2025-12-15 13:16:07 INFO router.py:535 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image"
+2025-12-15 13:16:07 INFO router.py:712 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: idle-PC set to 0x60c09aa0
+2025-12-15 13:16:07 INFO router.py:939 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: disk0 updated from 16MB to 0MB
+2025-12-15 13:16:07 INFO router.py:990 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: auto delete disks enabled
+2025-12-15 13:16:07 INFO router.py:1093 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: MAC address updated from c205.0a55.0000 to c205.0591.0000
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: adapter NM-4T inserted into slot 1
+2025-12-15 13:16:07 INFO router.py:1181 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: adapter NM-4T inserted into slot 2
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: WIC-1T inserted into WIC slot 0
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: WIC-1T inserted into WIC slot 1
+2025-12-15 13:16:07 INFO router.py:1294 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: WIC-1T inserted into WIC slot 2
+2025-12-15 13:16:07 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:36571
+2025-12-15 13:16:07 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:36571']
+2025-12-15 13:16:07 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/builtin/62ff43e4-813f-471d-8f47-5ff15197f280/ubridge.log
+2025-12-15 13:16:07 INFO hypervisor.py:171 ubridge started PID=2661
+2025-12-15 13:16:07 INFO base_node.py:788 Hypervisor 0.0.0.0:36571 has successfully started
+2025-12-15 13:16:07 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:36571 after 0.1007 seconds
+2025-12-15 13:16:07 INFO cloud.py:219 Cloud "WEB" [62ff43e4-813f-471d-8f47-5ff15197f280] has been created
+2025-12-15 13:16:07 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43765
+2025-12-15 13:16:07 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43765']
+2025-12-15 13:16:07 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/builtin/161f8857-fdca-45f5-a21f-b0a7630f5bed/ubridge.log
+2025-12-15 13:16:07 INFO hypervisor.py:171 ubridge started PID=2664
+2025-12-15 13:16:07 INFO base_node.py:788 Hypervisor 0.0.0.0:43765 has successfully started
+2025-12-15 13:16:07 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43765 after 0.1009 seconds
+2025-12-15 13:16:08 INFO cloud.py:219 Cloud "DB" [161f8857-fdca-45f5-a21f-b0a7630f5bed] has been created
+2025-12-15 13:16:08 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44787
+2025-12-15 13:16:08 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44787']
+2025-12-15 13:16:08 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/builtin/d32677e4-80b0-400a-ba01-44ae45aae32b/ubridge.log
+2025-12-15 13:16:08 INFO hypervisor.py:171 ubridge started PID=2667
+2025-12-15 13:16:08 INFO base_node.py:788 Hypervisor 0.0.0.0:44787 has successfully started
+2025-12-15 13:16:08 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44787 after 0.1015 seconds
+2025-12-15 13:16:08 INFO cloud.py:219 Cloud "IT" [d32677e4-80b0-400a-ba01-44ae45aae32b] has been created
+2025-12-15 13:16:08 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:37211
+2025-12-15 13:16:08 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:37211']
+2025-12-15 13:16:08 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/builtin/ab4e6aa1-e2fd-4ab5-9c4c-5ceb31a36727/ubridge.log
+2025-12-15 13:16:08 INFO hypervisor.py:171 ubridge started PID=2672
+2025-12-15 13:16:08 INFO base_node.py:788 Hypervisor 0.0.0.0:37211 has successfully started
+2025-12-15 13:16:08 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:37211 after 0.1010 seconds
+2025-12-15 13:16:08 INFO cloud.py:219 Cloud "NFS" [ab4e6aa1-e2fd-4ab5-9c4c-5ceb31a36727] has been created
+2025-12-15 13:16:08 INFO nat.py:72 NAT node 'NAT1' configured to use NAT interface 'virbr0'
+2025-12-15 13:16:08 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43521
+2025-12-15 13:16:08 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43521']
+2025-12-15 13:16:08 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/builtin/22db3c67-6494-4055-8714-3e8d57bf6894/ubridge.log
+2025-12-15 13:16:08 INFO hypervisor.py:171 ubridge started PID=2675
+2025-12-15 13:16:08 INFO base_node.py:788 Hypervisor 0.0.0.0:43521 has successfully started
+2025-12-15 13:16:08 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43521 after 0.1009 seconds
+2025-12-15 13:16:08 INFO cloud.py:219 Cloud "NAT1" [22db3c67-6494-4055-8714-3e8d57bf6894] has been created
+2025-12-15 13:16:08 INFO nio_udp.py:76 NIO UDP udp-b1f4d13e-47a9-483b-8913-7f55b6604453 created with lport=10000, rhost=127.0.0.1, rport=10001
+2025-12-15 13:16:08 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:41143
+2025-12-15 13:16:08 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:41143']
+2025-12-15 13:16:08 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/b922c079-de16-4970-b392-52b9b5d55913/ubridge.log
+2025-12-15 13:16:08 INFO hypervisor.py:171 ubridge started PID=2678
+2025-12-15 13:16:08 INFO base_node.py:788 Hypervisor 0.0.0.0:41143 has successfully started
+2025-12-15 13:16:08 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:41143 after 0.1014 seconds
+2025-12-15 13:16:08 INFO router.py:1404 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NIO udp-b1f4d13e-47a9-483b-8913-7f55b6604453 bound to port 0/16
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-79c0c11a-cf2b-4089-9927-2437ee5ae644 created with lport=10001, rhost=127.0.0.1, rport=10000
+2025-12-15 13:16:09 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44899
+2025-12-15 13:16:09 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44899']
+2025-12-15 13:16:09 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/7090c085-d462-4d3a-aa61-b6fd055334c6/ubridge.log
+2025-12-15 13:16:09 INFO hypervisor.py:171 ubridge started PID=2683
+2025-12-15 13:16:09 INFO base_node.py:788 Hypervisor 0.0.0.0:44899 has successfully started
+2025-12-15 13:16:09 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44899 after 0.1014 seconds
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NIO udp-79c0c11a-cf2b-4089-9927-2437ee5ae644 bound to port 0/16
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-3469f848-fc73-4d12-8305-c32ad5c1d155 created with lport=10006, rhost=127.0.0.1, rport=10007
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NIO udp-3469f848-fc73-4d12-8305-c32ad5c1d155 bound to port 0/32
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-fac9d99e-3bdc-489b-9997-744095903592 created with lport=10007, rhost=127.0.0.1, rport=10006
+2025-12-15 13:16:09 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43557
+2025-12-15 13:16:09 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43557']
+2025-12-15 13:16:09 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/f156a634-f1c4-453e-b26b-265493eb590a/ubridge.log
+2025-12-15 13:16:09 INFO hypervisor.py:171 ubridge started PID=2690
+2025-12-15 13:16:09 INFO base_node.py:788 Hypervisor 0.0.0.0:43557 has successfully started
+2025-12-15 13:16:09 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43557 after 0.1022 seconds
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NIO udp-fac9d99e-3bdc-489b-9997-744095903592 bound to port 0/16
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-803b6670-80c4-4d44-a4ac-14cb47b85b0e created with lport=10012, rhost=127.0.0.1, rport=10013
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NIO udp-803b6670-80c4-4d44-a4ac-14cb47b85b0e bound to port 0/48
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-96721ab9-44b5-49f1-978e-342512c07ece created with lport=10013, rhost=127.0.0.1, rport=10012
+2025-12-15 13:16:09 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44127
+2025-12-15 13:16:09 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44127']
+2025-12-15 13:16:09 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/5967c1bb-45b0-4c7b-b240-26184db7fcf8/ubridge.log
+2025-12-15 13:16:09 INFO hypervisor.py:171 ubridge started PID=2697
+2025-12-15 13:16:09 INFO base_node.py:788 Hypervisor 0.0.0.0:44127 has successfully started
+2025-12-15 13:16:09 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44127 after 0.1010 seconds
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NIO udp-96721ab9-44b5-49f1-978e-342512c07ece bound to port 0/16
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-6b295fc7-c09b-49e5-9896-826bf024b06b created with lport=10018, rhost=127.0.0.1, rport=10019
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NIO udp-6b295fc7-c09b-49e5-9896-826bf024b06b bound to port 2/0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-eb716c18-bfc9-47eb-ba92-8a1ff490f8e5 created with lport=10019, rhost=127.0.0.1, rport=10018
+2025-12-15 13:16:09 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44515
+2025-12-15 13:16:09 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44515']
+2025-12-15 13:16:09 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/1559eba0-ae27-4859-96dd-e63e7a5840fa/ubridge.log
+2025-12-15 13:16:09 INFO hypervisor.py:171 ubridge started PID=2704
+2025-12-15 13:16:09 INFO base_node.py:788 Hypervisor 0.0.0.0:44515 has successfully started
+2025-12-15 13:16:09 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44515 after 0.1010 seconds
+2025-12-15 13:16:09 INFO router.py:1404 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NIO udp-eb716c18-bfc9-47eb-ba92-8a1ff490f8e5 bound to port 5/0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-756a2ff6-68cd-4d5a-8aa4-186143e452a8 created with lport=10024, rhost=127.0.0.1, rport=10025
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NIO udp-756a2ff6-68cd-4d5a-8aa4-186143e452a8 bound to port 0/32
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-6e8a887a-c2e6-4079-a9fd-d4c82d192e41 created with lport=10025, rhost=127.0.0.1, rport=10024
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NIO udp-6e8a887a-c2e6-4079-a9fd-d4c82d192e41 bound to port 0/32
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-334da1e5-e3fd-4ca6-98af-1be9a508a0f9 created with lport=10030, rhost=127.0.0.1, rport=10031
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NIO udp-334da1e5-e3fd-4ca6-98af-1be9a508a0f9 bound to port 0/48
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-dbc72d84-c33f-42c5-a9da-b670d59786a3 created with lport=10031, rhost=127.0.0.1, rport=10030
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NIO udp-dbc72d84-c33f-42c5-a9da-b670d59786a3 bound to port 0/32
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-7dcd38e0-80ff-4494-a02a-23075e3b8a8e created with lport=10036, rhost=127.0.0.1, rport=10037
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NIO udp-7dcd38e0-80ff-4494-a02a-23075e3b8a8e bound to port 2/0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-aa3c663e-c97a-4bbb-8796-c7e1af9dd63c created with lport=10037, rhost=127.0.0.1, rport=10036
+2025-12-15 13:16:09 INFO router.py:1404 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NIO udp-aa3c663e-c97a-4bbb-8796-c7e1af9dd63c bound to port 5/1
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-2bb2d2e8-70cb-4b0b-ab9f-8aa73af930e1 created with lport=10042, rhost=127.0.0.1, rport=10043
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NIO udp-2bb2d2e8-70cb-4b0b-ab9f-8aa73af930e1 bound to port 0/48
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-572f8fbb-5651-4c82-8c95-97c63c441a6c created with lport=10043, rhost=127.0.0.1, rport=10042
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NIO udp-572f8fbb-5651-4c82-8c95-97c63c441a6c bound to port 0/48
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-554deacb-9c42-4f36-8308-98c014083cb7 created with lport=10048, rhost=127.0.0.1, rport=10049
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NIO udp-554deacb-9c42-4f36-8308-98c014083cb7 bound to port 2/0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-06fe632f-ac26-4b43-b65c-a0699d05f1b4 created with lport=10049, rhost=127.0.0.1, rport=10048
+2025-12-15 13:16:09 INFO router.py:1404 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NIO udp-06fe632f-ac26-4b43-b65c-a0699d05f1b4 bound to port 5/2
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-c8ce13ee-66b5-4ec4-b64f-adb9907f239d created with lport=10054, rhost=127.0.0.1, rport=10055
+2025-12-15 13:16:09 INFO router.py:1404 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NIO udp-c8ce13ee-66b5-4ec4-b64f-adb9907f239d bound to port 2/0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-1ca1f671-05b3-4745-a61c-da3ceb8f7fc2 created with lport=10055, rhost=127.0.0.1, rport=10054
+2025-12-15 13:16:09 INFO router.py:1404 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NIO udp-1ca1f671-05b3-4745-a61c-da3ceb8f7fc2 bound to port 5/3
+2025-12-15 13:16:09 INFO cloud.py:419 Cloud "NAT1" [22db3c67-6494-4055-8714-3e8d57bf6894]: NIO NIO UDP bound to port 0
+2025-12-15 13:16:09 INFO nio_udp.py:76 NIO UDP udp-f382776f-4b38-4a9c-a885-b12513434ee3 created with lport=10061, rhost=127.0.0.1, rport=10060
+2025-12-15 13:16:09 INFO router.py:1404 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: NIO udp-f382776f-4b38-4a9c-a885-b12513434ee3 bound to port 0/0
+2025-12-15 13:16:10 INFO cloud.py:419 Cloud "IT" [d32677e4-80b0-400a-ba01-44ae45aae32b]: NIO NIO UDP bound to port 2
+2025-12-15 13:16:10 INFO nio_udp.py:76 NIO UDP udp-9532cf8e-db29-4e34-9d66-20d62d6b3050 created with lport=10065, rhost=127.0.0.1, rport=10064
+2025-12-15 13:16:10 INFO router.py:1404 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: NIO udp-9532cf8e-db29-4e34-9d66-20d62d6b3050 bound to port 0/0
+2025-12-15 13:16:10 INFO nio_udp.py:76 NIO UDP udp-ac1d6c81-97a4-4722-8009-942be0e379df created with lport=10068, rhost=127.0.0.1, rport=10069
+2025-12-15 13:16:10 INFO router.py:1404 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: NIO udp-ac1d6c81-97a4-4722-8009-942be0e379df bound to port 0/0
+2025-12-15 13:16:10 INFO cloud.py:419 Cloud "WEB" [62ff43e4-813f-471d-8f47-5ff15197f280]: NIO NIO UDP bound to port 2
+2025-12-15 13:16:10 INFO cloud.py:419 Cloud "NFS" [ab4e6aa1-e2fd-4ab5-9c4c-5ceb31a36727]: NIO NIO UDP bound to port 2
+2025-12-15 13:16:10 INFO nio_udp.py:76 NIO UDP udp-d51eebcb-3f4d-48ad-9d9b-42df5845d6c6 created with lport=10073, rhost=127.0.0.1, rport=10072
+2025-12-15 13:16:10 INFO router.py:1404 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: NIO udp-d51eebcb-3f4d-48ad-9d9b-42df5845d6c6 bound to port 0/0
+2025-12-15 13:16:10 INFO nio_udp.py:76 NIO UDP udp-ba4d3d58-1b7e-4c2b-ae35-f21959426ff6 created with lport=10076, rhost=127.0.0.1, rport=10077
+2025-12-15 13:16:10 INFO router.py:1404 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: NIO udp-ba4d3d58-1b7e-4c2b-ae35-f21959426ff6 bound to port 0/0
+2025-12-15 13:16:10 INFO cloud.py:419 Cloud "DB" [161f8857-fdca-45f5-a21f-b0a7630f5bed]: NIO NIO UDP bound to port 2
+2025-12-15 13:16:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:10 INFO websockets_impl.py:272 ('127.0.0.1', 58506) - "WebSocket /v3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzM1OH0.5YyV7DGKROqlq7OZ_P07Cs5-WrsPK8kuQnOD7pP-q0M" [accepted]
+2025-12-15 13:16:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:10 INFO server.py:643 connection open
+2025-12-15 13:16:10 INFO projects.py:297 New client has connected to the notification stream for project ID '6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf' (WebSocket method)
+2025-12-15 13:16:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:16 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 INFO websockets_impl.py:272 ('127.0.0.1', 33874) - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzM3Nn0.2m5FR5TajFW-qwquoEAUfToyP-RoUZ6wCjkGmSTBAC8" [accepted]
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 INFO server.py:643 connection open
+2025-12-15 13:16:31 INFO controller.py:214 New client 127.0.0.1:33874 has connected to controller WebSocket
+2025-12-15 13:16:31 INFO project.py:78 Project 80d14a6b-421a-45e2-8ae4-cce3fed6737f with path '/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f' created
+2025-12-15 13:16:31 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:49347 with working directory /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips
+2025-12-15 13:16:31 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i6_log.txt', '-H', '127.0.0.1:49347', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:31 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/dynamips_i6_stdout.txt
+2025-12-15 13:16:31 INFO hypervisor.py:130 Dynamips process started PID=2897
+2025-12-15 13:16:31 INFO __init__.py:338 Hypervisor 127.0.0.1:49347 has successfully started
+2025-12-15 13:16:31 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:49347 after 0.1747 seconds
+2025-12-15 13:16:31 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:31 INFO router.py:244 Router c7200 "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8] has been created
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter C7200-IO-FE inserted into slot 0
+2025-12-15 13:16:31 INFO router.py:564 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: RAM updated from 256MB to 512MB
+2025-12-15 13:16:31 INFO router.py:592 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: NVRAM updated from 128KB to 512KB
+2025-12-15 13:16:31 INFO router.py:535 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image"
+2025-12-15 13:16:31 INFO router.py:939 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: disk0 updated from 64MB to 0MB
+2025-12-15 13:16:31 INFO router.py:990 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: auto delete disks enabled
+2025-12-15 13:16:31 INFO router.py:1093 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: MAC address updated from ca01.0b51.0000 to ca01.01ef.0000
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-A1 inserted into slot 1
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-FE-TX inserted into slot 2
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-2FE-TX inserted into slot 3
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-GE inserted into slot 4
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-4T+ inserted into slot 5
+2025-12-15 13:16:31 INFO router.py:1181 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: adapter PA-8T inserted into slot 6
+2025-12-15 13:16:31 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34781
+2025-12-15 13:16:31 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34781']
+2025-12-15 13:16:31 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/builtin/8afbd725-2dd6-4c52-b2ce-6b78d676198a/ubridge.log
+2025-12-15 13:16:31 INFO hypervisor.py:171 ubridge started PID=2913
+2025-12-15 13:16:31 INFO base_node.py:788 Hypervisor 0.0.0.0:34781 has successfully started
+2025-12-15 13:16:31 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34781 after 0.1014 seconds
+2025-12-15 13:16:31 INFO cloud.py:219 Cloud "Cloud1" [8afbd725-2dd6-4c52-b2ce-6b78d676198a] has been created
+2025-12-15 13:16:31 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:59763 with working directory /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips
+2025-12-15 13:16:31 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i7_log.txt', '-H', '127.0.0.1:59763', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:16:31 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/dynamips_i7_stdout.txt
+2025-12-15 13:16:31 INFO hypervisor.py:130 Dynamips process started PID=2928
+2025-12-15 13:16:31 INFO __init__.py:338 Hypervisor 127.0.0.1:59763 has successfully started
+2025-12-15 13:16:31 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:59763 after 0.0105 seconds
+2025-12-15 13:16:31 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:16:31 INFO ethernet_switch.py:192 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be] has been created
+2025-12-15 13:16:31 INFO qemu_vm.py:272 QEMU VM "AlpineLinuxVirt-1" [AlpineLinuxVirt-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 13:16:31 INFO qemu_vm.py:693 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c]: MAC address changed to 0c:41:f4:4a:00:00
+2025-12-15 13:16:31 INFO qemu_vm.py:637 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c]: number of Ethernet adapters changed to 1
+2025-12-15 13:16:31 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 13:16:31 INFO qemu_vm.py:189 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c] has been created
+2025-12-15 13:16:31 INFO base_node.py:323 Qemu: AlpineLinuxVirt-1 [f741f44a-ea32-48c8-a9c6-30730105643c] created
+2025-12-15 13:16:31 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 13:16:31 INFO qemu_vm.py:418 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c] has set the QEMU hda disk interface to virtio
+2025-12-15 13:16:31 INFO qemu_vm.py:839 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c] has set the RAM to 128
+2025-12-15 13:16:31 INFO qemu_vm.py:663 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c]: adapter type changed to virtio-net-pci
+2025-12-15 13:16:31 INFO qemu_vm.py:814 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c] has set the process priority to normal
+2025-12-15 13:16:31 INFO qemu_vm.py:272 QEMU VM "UbuntuCloudGuest-1" [UbuntuCloudGuest-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 13:16:31 INFO qemu_vm.py:693 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]: MAC address changed to 0c:67:49:f2:00:00
+2025-12-15 13:16:31 INFO qemu_vm.py:637 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]: number of Ethernet adapters changed to 1
+2025-12-15 13:16:31 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 13:16:31 INFO qemu_vm.py:189 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has been created
+2025-12-15 13:16:31 INFO base_node.py:323 Qemu: UbuntuCloudGuest-1 [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] created
+2025-12-15 13:16:31 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 13:16:31 INFO qemu_vm.py:418 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU hda disk interface to virtio
+2025-12-15 13:16:31 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU hdb_disk_image path to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/UbuntuCloudGuest-1-hdb.qcow2
+2025-12-15 13:16:31 INFO qemu_vm.py:443 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU hdb disk interface to virtio
+2025-12-15 13:16:31 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 13:16:31 INFO qemu_vm.py:839 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the RAM to 1024
+2025-12-15 13:16:31 INFO qemu_vm.py:663 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]: adapter type changed to virtio-net-pci
+2025-12-15 13:16:31 INFO qemu_vm.py:814 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the process priority to normal
+2025-12-15 13:16:31 INFO qemu_vm.py:950 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb] has set the QEMU options to -nographic
+2025-12-15 13:16:31 INFO cloud.py:419 Cloud "Cloud1" [8afbd725-2dd6-4c52-b2ce-6b78d676198a]: NIO NIO UDP bound to port 3
+2025-12-15 13:16:31 INFO nio_udp.py:76 NIO UDP udp-5cf08428-4025-4366-8a5d-f551906e9464 created with lport=10081, rhost=127.0.0.1, rport=10080
+2025-12-15 13:16:31 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:41755
+2025-12-15 13:16:31 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:41755']
+2025-12-15 13:16:31 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/f5881a95-7b8d-484e-a9db-4e1641d171d8/ubridge.log
+2025-12-15 13:16:31 INFO hypervisor.py:171 ubridge started PID=2947
+2025-12-15 13:16:31 INFO base_node.py:788 Hypervisor 0.0.0.0:41755 has successfully started
+2025-12-15 13:16:31 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:41755 after 0.1012 seconds
+2025-12-15 13:16:31 INFO router.py:1404 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: NIO udp-5cf08428-4025-4366-8a5d-f551906e9464 bound to port 2/0
+2025-12-15 13:16:31 INFO nio_udp.py:76 NIO UDP udp-0ae5193e-867e-4bff-a1a5-e52af7e970fa created with lport=10084, rhost=127.0.0.1, rport=10085
+2025-12-15 13:16:31 INFO router.py:1404 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: NIO udp-0ae5193e-867e-4bff-a1a5-e52af7e970fa bound to port 0/0
+2025-12-15 13:16:31 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: NIO udp-21416a23-80ac-43ad-a387-71d71b422a7f bound to port 0
+2025-12-15 13:16:31 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: port 0 set as an access port in VLAN 1
+2025-12-15 13:16:31 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: NIO udp-3c525c15-84da-4777-b9e3-6a19a8614a55 bound to port 2
+2025-12-15 13:16:31 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: port 2 set as an access port in VLAN 1
+2025-12-15 13:16:31 INFO qemu_vm.py:1562 QEMU VM "AlpineLinuxVirt-1" [f741f44a-ea32-48c8-a9c6-30730105643c]: NIO UDP added to adapter 0
+2025-12-15 13:16:31 INFO qemu_vm.py:1562 QEMU VM "UbuntuCloudGuest-1" [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]: NIO UDP added to adapter 0
+2025-12-15 13:16:31 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: NIO udp-bf80e29f-77d5-4bcd-9de8-c91bba100a5e bound to port 1
+2025-12-15 13:16:31 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [19dd82f3-6073-4086-a84b-322ca76971be]: port 1 set as an access port in VLAN 1
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 INFO websockets_impl.py:272 ('127.0.0.1', 34072) - "WebSocket /v3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzM3Nn0.2m5FR5TajFW-qwquoEAUfToyP-RoUZ6wCjkGmSTBAC8" [accepted]
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 INFO server.py:643 connection open
+2025-12-15 13:16:31 INFO projects.py:297 New client has connected to the notification stream for project ID '80d14a6b-421a-45e2-8ae4-cce3fed6737f' (WebSocket method)
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:42 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:42 INFO router.py:127 Creating a new ghost IOS instance
+2025-12-15 13:16:42 INFO router.py:535 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image"
+2025-12-15 13:16:42 INFO router.py:882 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f]: ghost status set to 1
+2025-12-15 13:16:42 INFO router.py:839 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f]: ghost file set to "/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost"
+2025-12-15 13:16:42 INFO router.py:564 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f]: RAM updated from 128MB to 512MB
+2025-12-15 13:16:42 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/qemu-img.log
+2025-12-15 13:16:42 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 13:16:42 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/f741f44a-ea32-48c8-a9c6-30730105643c/qemu-img.log
+2025-12-15 13:16:42 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 13:16:42 INFO base_node.py:942 Qemu: 'AlpineLinuxVirt-1' [f741f44a-ea32-48c8-a9c6-30730105643c]:local UDP tunnel created between port 10092 and 10093
+2025-12-15 13:16:42 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/qemu-img.log
+2025-12-15 13:16:42 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/UbuntuCloudGuest-1-hdb.qcow2
+2025-12-15 13:16:42 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/f741f44a-ea32-48c8-a9c6-30730105643c/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid f741f44a-ea32-48c8-a9c6-30730105643c -serial telnet:127.0.0.1:5011,server,nowait -monitor tcp:127.0.0.1:34969,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:41:f4:4a:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10093,localaddr=127.0.0.1:10092 -display none
+2025-12-15 13:16:42 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/f741f44a-ea32-48c8-a9c6-30730105643c/qemu.log
+2025-12-15 13:16:42 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=3029
+2025-12-15 13:16:42 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:37755
+2025-12-15 13:16:42 INFO base_node.py:942 Qemu: 'UbuntuCloudGuest-1' [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]:local UDP tunnel created between port 10094 and 10095
+2025-12-15 13:16:42 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:37755']
+2025-12-15 13:16:42 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/f741f44a-ea32-48c8-a9c6-30730105643c/ubridge.log
+2025-12-15 13:16:42 INFO hypervisor.py:171 ubridge started PID=3032
+2025-12-15 13:16:42 INFO base_node.py:788 Hypervisor 0.0.0.0:37755 has successfully started
+2025-12-15 13:16:42 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name UbuntuCloudGuest-1 -m 1024M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -cdrom /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso -drive file=/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -drive file=/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/UbuntuCloudGuest-1-hdb.qcow2,if=virtio,index=1,media=disk,id=drive1 -uuid b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb -serial telnet:127.0.0.1:5015,server,nowait -monitor tcp:127.0.0.1:33937,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:67:49:f2:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10095,localaddr=127.0.0.1:10094 -nographic
+2025-12-15 13:16:42 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/qemu.log
+2025-12-15 13:16:42 INFO qemu_vm.py:1184 QEMU VM "UbuntuCloudGuest-1" started PID=3035
+2025-12-15 13:16:42 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35673
+2025-12-15 13:16:42 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35673']
+2025-12-15 13:16:42 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/qemu/b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb/ubridge.log
+2025-12-15 13:16:42 INFO hypervisor.py:171 ubridge started PID=3038
+2025-12-15 13:16:42 INFO base_node.py:788 Hypervisor 0.0.0.0:35673 has successfully started
+2025-12-15 13:16:43 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:37755 after 0.1008 seconds
+2025-12-15 13:16:43 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35673 after 0.1013 seconds
+2025-12-15 13:16:43 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:34969 after 0.0106 seconds
+2025-12-15 13:16:43 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5011, external port = 5021)
+2025-12-15 13:16:43 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:33937 after 0.0104 seconds
+2025-12-15 13:16:43 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5015, external port = 5014)
+2025-12-15 13:16:43 INFO router.py:325 router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f] has been started
+2025-12-15 13:16:43 INFO router.py:360 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f] has been stopped
+2025-12-15 13:16:43 INFO router.py:1790 Router "Ghost" [2707d0f9-fde5-4319-a67b-23610e0e4b1f] has been deleted (including associated files)
+2025-12-15 13:16:43 INFO router.py:882 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: ghost status set to 2
+2025-12-15 13:16:43 INFO router.py:839 Router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8]: ghost file set to "/home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost"
+2025-12-15 13:16:43 INFO router.py:325 router "RZ-4" [f5881a95-7b8d-484e-a9db-4e1641d171d8] has been started
+2025-12-15 13:16:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:16:48 INFO router.py:127 Creating a new ghost IOS instance
+2025-12-15 13:16:48 INFO router.py:535 Router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image"
+2025-12-15 13:16:48 INFO router.py:882 Router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e]: ghost status set to 1
+2025-12-15 13:16:48 INFO router.py:839 Router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14.image-128.ghost"
+2025-12-15 13:16:48 INFO router.py:325 router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e] has been started
+2025-12-15 13:16:48 INFO router.py:360 Router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e] has been stopped
+2025-12-15 13:16:48 INFO router.py:1790 Router "Ghost" [01a0bf0a-fe66-4679-b705-6a082887e71e] has been deleted (including associated files)
+2025-12-15 13:16:48 INFO router.py:882 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: ghost status set to 2
+2025-12-15 13:16:48 INFO router.py:839 Router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14.image-128.ghost"
+2025-12-15 13:16:48 INFO router.py:882 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: ghost status set to 2
+2025-12-15 13:16:48 INFO router.py:839 Router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14.image-128.ghost"
+2025-12-15 13:16:48 INFO router.py:127 Creating a new ghost IOS instance
+2025-12-15 13:16:48 INFO router.py:535 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image"
+2025-12-15 13:16:48 INFO router.py:882 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb]: ghost status set to 1
+2025-12-15 13:16:48 INFO router.py:839 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost"
+2025-12-15 13:16:48 INFO router.py:564 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb]: RAM updated from 128MB to 512MB
+2025-12-15 13:16:48 INFO router.py:325 router "RB-3" [f156a634-f1c4-453e-b26b-265493eb590a] has been started
+2025-12-15 13:16:48 INFO router.py:325 router "RB-1" [b922c079-de16-4970-b392-52b9b5d55913] has been started
+2025-12-15 13:16:49 INFO router.py:325 router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb] has been started
+2025-12-15 13:16:49 INFO router.py:360 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb] has been stopped
+2025-12-15 13:16:49 INFO router.py:1790 Router "Ghost" [1fed345c-8db9-4a2b-ae9e-3bd88c7149bb] has been deleted (including associated files)
+2025-12-15 13:16:49 INFO router.py:882 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: ghost status set to 2
+2025-12-15 13:16:49 INFO router.py:839 Router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c7200-adventerprisek9-mz.153-3.XB12.image-512.ghost"
+2025-12-15 13:16:49 INFO router.py:882 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: ghost status set to 2
+2025-12-15 13:16:49 INFO router.py:839 Router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14.image-128.ghost"
+2025-12-15 13:16:49 INFO router.py:882 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: ghost status set to 2
+2025-12-15 13:16:49 INFO router.py:839 Router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: ghost file set to "/home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/c3725-adventerprisek9-mz.124-15.T14.image-128.ghost"
+2025-12-15 13:16:49 INFO router.py:325 router "R-Internet" [1559eba0-ae27-4859-96dd-e63e7a5840fa] has been started
+2025-12-15 13:16:49 INFO router.py:325 router "RB-2" [7090c085-d462-4d3a-aa61-b6fd055334c6] has been started
+2025-12-15 13:16:49 INFO router.py:325 router "RB-4" [5967c1bb-45b0-4c7b-b240-26184db7fcf8] has been started
+2025-12-15 13:17:13 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/f5881a95-7b8d-484e-a9db-4e1641d171d8/configs/i1_startup-config.cfg
+2025-12-15 13:17:13 INFO router.py:1762 saving private-config to /home/lm001/GNS3/projects/80d14a6b-421a-45e2-8ae4-cce3fed6737f/project-files/dynamips/f5881a95-7b8d-484e-a9db-4e1641d171d8/configs/i1_private-config.cfg
+2025-12-15 13:17:18 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/f156a634-f1c4-453e-b26b-265493eb590a/configs/i3_startup-config.cfg
+2025-12-15 13:17:18 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/b922c079-de16-4970-b392-52b9b5d55913/configs/i2_startup-config.cfg
+2025-12-15 13:17:18 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/b922c079-de16-4970-b392-52b9b5d55913/configs/i2_startup-config.cfg
+2025-12-15 13:17:18 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/f156a634-f1c4-453e-b26b-265493eb590a/configs/i3_startup-config.cfg
+2025-12-15 13:17:19 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/1559eba0-ae27-4859-96dd-e63e7a5840fa/configs/i1_startup-config.cfg
+2025-12-15 13:17:19 INFO router.py:1762 saving private-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/1559eba0-ae27-4859-96dd-e63e7a5840fa/configs/i1_private-config.cfg
+2025-12-15 13:17:19 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/7090c085-d462-4d3a-aa61-b6fd055334c6/configs/i4_startup-config.cfg
+2025-12-15 13:17:19 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/5967c1bb-45b0-4c7b-b240-26184db7fcf8/configs/i5_startup-config.cfg
+2025-12-15 13:17:19 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/7090c085-d462-4d3a-aa61-b6fd055334c6/configs/i4_startup-config.cfg
+2025-12-15 13:17:19 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf/project-files/dynamips/5967c1bb-45b0-4c7b-b240-26184db7fcf8/configs/i5_startup-config.cfg
+2025-12-15 13:20:23 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:20:23 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:20:23 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:20:23 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:20:23 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:03 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:03 INFO websockets_impl.py:272 ('127.0.0.1', 58054) - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzYyM30.48EGDlpngnSGf7DepNfB7oBL9SenTYIVH69lS9D9MCg" [accepted]
+2025-12-15 13:30:03 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:03 INFO server.py:643 connection open
+2025-12-15 13:30:03 INFO controller.py:214 New client 127.0.0.1:58054 has connected to controller WebSocket
+2025-12-15 13:30:03 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:03 INFO project.py:78 Project cf71a6b7-4583-4773-8ae9-7c49946c24b7 with path '/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7' created
+2025-12-15 13:30:03 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:38163 with working directory /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips
+2025-12-15 13:30:03 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i8_log.txt', '-H', '127.0.0.1:38163', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:30:03 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/dynamips_i8_stdout.txt
+2025-12-15 13:30:03 INFO hypervisor.py:130 Dynamips process started PID=7970
+2025-12-15 13:30:03 INFO __init__.py:338 Hypervisor 127.0.0.1:38163 has successfully started
+2025-12-15 13:30:03 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:38163 after 0.2576 seconds
+2025-12-15 13:30:03 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:30:03 INFO ethernet_switch.py:192 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81] has been created
+2025-12-15 13:30:03 INFO qemu_vm.py:272 QEMU VM "AlpineLinuxVirt-1" [AlpineLinuxVirt-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 13:30:03 INFO qemu_vm.py:693 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b]: MAC address changed to 0c:f6:07:c3:00:00
+2025-12-15 13:30:03 INFO qemu_vm.py:637 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b]: number of Ethernet adapters changed to 1
+2025-12-15 13:30:03 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 13:30:03 INFO qemu_vm.py:189 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has been created
+2025-12-15 13:30:03 INFO base_node.py:323 Qemu: AlpineLinuxVirt-1 [aaf607c3-731f-435b-976c-af66ff35760b] created
+2025-12-15 13:30:03 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 13:30:03 INFO qemu_vm.py:418 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda disk interface to virtio
+2025-12-15 13:30:03 INFO qemu_vm.py:839 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the RAM to 128
+2025-12-15 13:30:03 INFO qemu_vm.py:663 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b]: adapter type changed to virtio-net-pci
+2025-12-15 13:30:03 INFO qemu_vm.py:814 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the process priority to normal
+2025-12-15 13:30:03 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35835
+2025-12-15 13:30:03 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35835']
+2025-12-15 13:30:03 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/builtin/44fc321a-10f8-4304-bb9a-ca210a5b0714/ubridge.log
+2025-12-15 13:30:03 INFO hypervisor.py:171 ubridge started PID=7986
+2025-12-15 13:30:03 INFO base_node.py:788 Hypervisor 0.0.0.0:35835 has successfully started
+2025-12-15 13:30:04 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35835 after 0.1010 seconds
+2025-12-15 13:30:04 INFO cloud.py:219 Cloud "Cloud1" [44fc321a-10f8-4304-bb9a-ca210a5b0714] has been created
+2025-12-15 13:30:04 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:44857 with working directory /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips
+2025-12-15 13:30:04 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i9_log.txt', '-H', '127.0.0.1:44857', '--console-binding-addr', '0.0.0.0']
+2025-12-15 13:30:04 INFO hypervisor.py:125 Dynamips process logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/dynamips_i9_stdout.txt
+2025-12-15 13:30:04 INFO hypervisor.py:130 Dynamips process started PID=8012
+2025-12-15 13:30:04 INFO __init__.py:338 Hypervisor 127.0.0.1:44857 has successfully started
+2025-12-15 13:30:04 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:44857 after 0.0105 seconds
+2025-12-15 13:30:04 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2025-12-15 13:30:04 INFO router.py:244 Router c7200 "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a] has been created
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter C7200-IO-FE inserted into slot 0
+2025-12-15 13:30:04 INFO router.py:564 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: RAM updated from 256MB to 512MB
+2025-12-15 13:30:04 INFO router.py:592 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: NVRAM updated from 128KB to 512KB
+2025-12-15 13:30:04 INFO router.py:535 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.S6.image"
+2025-12-15 13:30:04 INFO router.py:939 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: disk0 updated from 64MB to 0MB
+2025-12-15 13:30:04 INFO router.py:990 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: auto delete disks enabled
+2025-12-15 13:30:04 INFO router.py:1093 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: MAC address updated from ca01.1f4c.0000 to ca01.8dc2.0000
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-A1 inserted into slot 1
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-FE-TX inserted into slot 2
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-2FE-TX inserted into slot 3
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-GE inserted into slot 4
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-4T+ inserted into slot 5
+2025-12-15 13:30:04 INFO router.py:1181 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: adapter PA-8T inserted into slot 6
+2025-12-15 13:30:04 INFO qemu_vm.py:272 QEMU VM "Debian-1" [Debian-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 13:30:04 INFO qemu_vm.py:693 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]: MAC address changed to 0c:57:5b:9b:00:00
+2025-12-15 13:30:04 INFO qemu_vm.py:637 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]: number of Ethernet adapters changed to 1
+2025-12-15 13:30:04 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 13:30:04 INFO qemu_vm.py:189 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has been created
+2025-12-15 13:30:04 INFO base_node.py:323 Qemu: Debian-1 [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] created
+2025-12-15 13:30:04 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 13:30:04 INFO qemu_vm.py:418 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda disk interface to scsi
+2025-12-15 13:30:04 INFO qemu_vm.py:839 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the RAM to 512
+2025-12-15 13:30:04 INFO qemu_vm.py:663 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]: adapter type changed to virtio-net-pci
+2025-12-15 13:30:04 INFO qemu_vm.py:814 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the process priority to normal
+2025-12-15 13:30:04 INFO nio_udp.py:76 NIO UDP udp-6257aa39-ce60-4b83-a7b1-691bff8f21e1 created with lport=10096, rhost=127.0.0.1, rport=10097
+2025-12-15 13:30:04 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:39587
+2025-12-15 13:30:04 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:39587']
+2025-12-15 13:30:04 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/ubridge.log
+2025-12-15 13:30:04 INFO hypervisor.py:171 ubridge started PID=8028
+2025-12-15 13:30:04 INFO base_node.py:788 Hypervisor 0.0.0.0:39587 has successfully started
+2025-12-15 13:30:04 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:39587 after 0.1012 seconds
+2025-12-15 13:30:04 INFO router.py:1404 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: NIO udp-6257aa39-ce60-4b83-a7b1-691bff8f21e1 bound to port 0/0
+2025-12-15 13:30:04 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-338d370e-d17f-4450-8c49-c66646aad7ba bound to port 0
+2025-12-15 13:30:04 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: port 0 set as an access port in VLAN 1
+2025-12-15 13:30:04 INFO cloud.py:419 Cloud "Cloud1" [44fc321a-10f8-4304-bb9a-ca210a5b0714]: NIO NIO UDP bound to port 3
+2025-12-15 13:30:04 INFO nio_udp.py:76 NIO UDP udp-d4c57925-d2f3-4839-8de2-18b4d1747030 created with lport=10101, rhost=127.0.0.1, rport=10100
+2025-12-15 13:30:04 INFO router.py:1404 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: NIO udp-d4c57925-d2f3-4839-8de2-18b4d1747030 bound to port 2/0
+2025-12-15 13:30:04 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-fb53cd96-81c1-41e7-8da7-331d0d1d4e31 bound to port 2
+2025-12-15 13:30:04 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: port 2 set as an access port in VLAN 1
+2025-12-15 13:30:04 INFO qemu_vm.py:1562 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b]: NIO UDP added to adapter 0
+2025-12-15 13:30:04 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-7d24216e-3a6c-461a-938d-681d8c68ff63 bound to port 1
+2025-12-15 13:30:04 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: port 1 set as an access port in VLAN 1
+2025-12-15 13:30:04 INFO qemu_vm.py:1562 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]: NIO UDP added to adapter 0
+2025-12-15 13:30:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:04 INFO websockets_impl.py:272 ('127.0.0.1', 58240) - "WebSocket /v3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg4NzYyM30.48EGDlpngnSGf7DepNfB7oBL9SenTYIVH69lS9D9MCg" [accepted]
+2025-12-15 13:30:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:04 INFO server.py:643 connection open
+2025-12-15 13:30:04 INFO projects.py:297 New client has connected to the notification stream for project ID 'cf71a6b7-4583-4773-8ae9-7c49946c24b7' (WebSocket method)
+2025-12-15 13:30:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:30:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:42:57 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 13:42:57 INFO router.py:127 Creating a new ghost IOS instance
+2025-12-15 13:42:57 INFO router.py:535 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23]: has a new IOS image set: "/home/lm001/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.S6.image"
+2025-12-15 13:42:57 INFO router.py:882 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23]: ghost status set to 1
+2025-12-15 13:42:57 INFO router.py:839 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23]: ghost file set to "/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/c7200-adventerprisek9-mz.152-4.S6.image-512.ghost"
+2025-12-15 13:42:57 INFO router.py:564 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23]: RAM updated from 128MB to 512MB
+2025-12-15 13:42:57 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu-img.log
+2025-12-15 13:42:57 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 13:42:57 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2/qemu-img.log
+2025-12-15 13:42:57 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 13:42:57 INFO base_node.py:942 Qemu: 'AlpineLinuxVirt-1' [aaf607c3-731f-435b-976c-af66ff35760b]:local UDP tunnel created between port 10108 and 10109
+2025-12-15 13:42:57 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid aaf607c3-731f-435b-976c-af66ff35760b -serial telnet:127.0.0.1:5017,server,nowait -monitor tcp:127.0.0.1:40793,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f6:07:c3:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10109,localaddr=127.0.0.1:10108 -display none
+2025-12-15 13:42:57 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu.log
+2025-12-15 13:42:57 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=10905
+2025-12-15 13:42:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:41131
+2025-12-15 13:42:57 INFO base_node.py:942 Qemu: 'Debian-1' [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]:local UDP tunnel created between port 10110 and 10111
+2025-12-15 13:42:57 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:41131']
+2025-12-15 13:42:57 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/ubridge.log
+2025-12-15 13:42:57 INFO hypervisor.py:171 ubridge started PID=10908
+2025-12-15 13:42:57 INFO base_node.py:788 Hypervisor 0.0.0.0:41131 has successfully started
+2025-12-15 13:42:57 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name Debian-1 -m 512M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -device virtio-scsi-pci,id=scsi0 -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2/hda_disk.qcow2,if=none,id=drive0,index=0,media=disk -device scsi-hd,drive=drive0 -uuid 5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2 -serial telnet:127.0.0.1:5026,server,nowait -monitor tcp:127.0.0.1:45995,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:57:5b:9b:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10111,localaddr=127.0.0.1:10110 -display none
+2025-12-15 13:42:57 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2/qemu.log
+2025-12-15 13:42:57 INFO qemu_vm.py:1184 QEMU VM "Debian-1" started PID=10911
+2025-12-15 13:42:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43041
+2025-12-15 13:42:57 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43041']
+2025-12-15 13:42:57 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2/ubridge.log
+2025-12-15 13:42:57 INFO hypervisor.py:171 ubridge started PID=10915
+2025-12-15 13:42:57 INFO base_node.py:788 Hypervisor 0.0.0.0:43041 has successfully started
+2025-12-15 13:42:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:41131 after 0.1011 seconds
+2025-12-15 13:42:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43041 after 0.1012 seconds
+2025-12-15 13:42:57 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:40793 after 0.0107 seconds
+2025-12-15 13:42:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5017, external port = 5020)
+2025-12-15 13:42:57 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:45995 after 0.0104 seconds
+2025-12-15 13:42:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5026, external port = 5025)
+2025-12-15 13:42:57 INFO router.py:325 router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23] has been started
+2025-12-15 13:42:58 INFO router.py:360 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23] has been stopped
+2025-12-15 13:42:58 INFO router.py:1790 Router "Ghost" [850a7319-856c-4064-a379-bb3ece5bbf23] has been deleted (including associated files)
+2025-12-15 13:42:58 INFO router.py:882 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost status set to 2
+2025-12-15 13:42:58 INFO router.py:839 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost file set to "/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/c7200-adventerprisek9-mz.152-4.S6.image-512.ghost"
+2025-12-15 13:42:58 INFO router.py:325 router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a] has been started
+2025-12-15 13:43:28 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_startup-config.cfg
+2025-12-15 13:43:28 INFO router.py:1762 saving private-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_private-config.cfg
+2025-12-15 14:38:35 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:35 INFO project.py:552 Creating node from template "Alpine Linux Virt" on compute "airneos (controller)" [local]
+2025-12-15 14:38:35 INFO qemu_vm.py:294 QEMU VM 'AlpineLinuxVirt-2' [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the platform x86_64
+2025-12-15 14:38:35 INFO qemu_vm.py:272 QEMU VM "AlpineLinuxVirt-2" [AlpineLinuxVirt-2] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 14:38:35 INFO qemu_vm.py:693 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465]: MAC address changed to 0c:8a:71:13:00:00
+2025-12-15 14:38:35 INFO qemu_vm.py:637 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465]: number of Ethernet adapters changed to 1
+2025-12-15 14:38:35 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 14:38:35 INFO qemu_vm.py:189 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has been created
+2025-12-15 14:38:35 INFO base_node.py:323 Qemu: AlpineLinuxVirt-2 [ef8a7113-5c7b-4198-a64b-9a98f1a92465] created
+2025-12-15 14:38:35 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:38:35 INFO qemu_vm.py:418 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the QEMU hda disk interface to virtio
+2025-12-15 14:38:35 INFO qemu_vm.py:839 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the RAM to 128
+2025-12-15 14:38:35 INFO qemu_vm.py:663 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465]: adapter type changed to virtio-net-pci
+2025-12-15 14:38:35 INFO qemu_vm.py:814 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the process priority to normal
+2025-12-15 14:38:35 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:35 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:38:36 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:36 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-2" [ef8a7113-5c7b-4198-a64b-9a98f1a92465] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:38:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:45 INFO base_node.py:370 Qemu: 'AlpineLinuxVirt-2' [ef8a7113-5c7b-4198-a64b-9a98f1a92465]: is closing
+2025-12-15 14:38:47 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:47 INFO project.py:552 Creating node from template "Debian" on compute "airneos (controller)" [local]
+2025-12-15 14:38:47 INFO qemu_vm.py:294 QEMU VM 'Debian-2' [325cafa6-3f31-4db0-9906-e820b598c823] has set the platform x86_64
+2025-12-15 14:38:47 INFO qemu_vm.py:272 QEMU VM "Debian-2" [Debian-2] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 14:38:47 INFO qemu_vm.py:693 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823]: MAC address changed to 0c:5c:af:a6:00:00
+2025-12-15 14:38:47 INFO qemu_vm.py:637 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823]: number of Ethernet adapters changed to 1
+2025-12-15 14:38:47 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 14:38:47 INFO qemu_vm.py:189 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has been created
+2025-12-15 14:38:47 INFO base_node.py:323 Qemu: Debian-2 [325cafa6-3f31-4db0-9906-e820b598c823] created
+2025-12-15 14:38:47 INFO qemu_vm.py:313 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:38:47 INFO qemu_vm.py:418 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has set the QEMU hda disk interface to scsi
+2025-12-15 14:38:47 INFO qemu_vm.py:839 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has set the RAM to 512
+2025-12-15 14:38:47 INFO qemu_vm.py:663 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823]: adapter type changed to virtio-net-pci
+2025-12-15 14:38:47 INFO qemu_vm.py:814 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has set the process priority to normal
+2025-12-15 14:38:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:48 INFO qemu_vm.py:313 QEMU VM "Debian-2" [325cafa6-3f31-4db0-9906-e820b598c823] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:38:51 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:51 INFO base_node.py:370 Qemu: 'Debian-2' [325cafa6-3f31-4db0-9906-e820b598c823]: is closing
+2025-12-15 14:38:52 ERROR images.py:293 Can't write digest of /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2: [Errno 2] No such file or directory: '/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/325cafa6-3f31-4db0-9906-e820b598c823/debian-12.6.qcow2.md5sum'
+2025-12-15 14:38:53 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:53 INFO project.py:552 Creating node from template "Ubuntu Cloud Guest" on compute "airneos (controller)" [local]
+2025-12-15 14:38:53 INFO qemu_vm.py:294 QEMU VM 'UbuntuCloudGuest-1' [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the platform x86_64
+2025-12-15 14:38:53 INFO qemu_vm.py:272 QEMU VM "UbuntuCloudGuest-1" [UbuntuCloudGuest-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 14:38:53 INFO qemu_vm.py:693 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: MAC address changed to 0c:f5:ef:d5:00:00
+2025-12-15 14:38:53 INFO qemu_vm.py:637 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: number of Ethernet adapters changed to 1
+2025-12-15 14:38:53 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 14:38:53 INFO qemu_vm.py:189 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has been created
+2025-12-15 14:38:53 INFO base_node.py:323 Qemu: UbuntuCloudGuest-1 [0af5efd5-c7df-46a4-abac-c94bac1dcb07] created
+2025-12-15 14:38:53 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:38:53 INFO qemu_vm.py:418 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU hda disk interface to virtio
+2025-12-15 14:38:53 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:38:53 INFO qemu_vm.py:839 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the RAM to 1024
+2025-12-15 14:38:53 INFO qemu_vm.py:663 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: adapter type changed to virtio-net-pci
+2025-12-15 14:38:53 INFO qemu_vm.py:814 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the process priority to normal
+2025-12-15 14:38:53 INFO qemu_vm.py:950 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU options to -nographic
+2025-12-15 14:38:54 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:38:54 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:38:54 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:39:01 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:01 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:39:01 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:39:05 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:05 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:39:05 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:39:06 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:06 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:39:08 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:08 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:39:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:14 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-c07d6747-32ae-4efb-90ef-771db6deded4 bound to port 3
+2025-12-15 14:39:14 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: port 3 set as an access port in VLAN 1
+2025-12-15 14:39:14 INFO qemu_vm.py:1562 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: NIO UDP added to adapter 0
+2025-12-15 14:39:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:39:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:42:12 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:42:12 INFO qemu_vm.py:1358 Execute QEMU monitor command: info status
+2025-12-15 14:42:12 INFO qemu_vm.py:1358 Execute QEMU monitor command: info status
+2025-12-15 14:42:12 INFO router.py:882 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost status set to 2
+2025-12-15 14:42:12 INFO router.py:839 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost file set to "/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/c7200-adventerprisek9-mz.152-4.S6.image-512.ghost"
+2025-12-15 14:42:12 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:40793 after 0.0104 seconds
+2025-12-15 14:42:12 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:45995 after 0.0112 seconds
+2025-12-15 14:42:12 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/qemu-img.log
+2025-12-15 14:42:12 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:42:12 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/qemu-img.log
+2025-12-15 14:42:12 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img create -o backing_file=/home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img -F qcow2 -f qcow2 /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/hda_disk.qcow2
+2025-12-15 14:42:12 INFO qemu_vm.py:1528 QEMU VM is not paused to be resumed, current status is running
+2025-12-15 14:42:12 INFO qemu_vm.py:1528 QEMU VM is not paused to be resumed, current status is running
+2025-12-15 14:42:12 INFO base_node.py:942 Qemu: 'UbuntuCloudGuest-1' [0af5efd5-c7df-46a4-abac-c94bac1dcb07]:local UDP tunnel created between port 10114 and 10115
+2025-12-15 14:42:12 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name UbuntuCloudGuest-1 -m 1024M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -cdrom /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid 0af5efd5-c7df-46a4-abac-c94bac1dcb07 -serial telnet:127.0.0.1:5029,server,nowait -monitor tcp:127.0.0.1:37569,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f5:ef:d5:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10115,localaddr=127.0.0.1:10114 -nographic
+2025-12-15 14:42:12 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/qemu.log
+2025-12-15 14:42:12 INFO qemu_vm.py:1184 QEMU VM "UbuntuCloudGuest-1" started PID=24956
+2025-12-15 14:42:12 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43283
+2025-12-15 14:42:12 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43283']
+2025-12-15 14:42:12 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/ubridge.log
+2025-12-15 14:42:12 INFO hypervisor.py:171 ubridge started PID=24958
+2025-12-15 14:42:12 INFO base_node.py:788 Hypervisor 0.0.0.0:43283 has successfully started
+2025-12-15 14:42:12 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43283 after 0.1010 seconds
+2025-12-15 14:42:12 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:37569 after 0.0107 seconds
+2025-12-15 14:42:12 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5029, external port = 5028)
+2025-12-15 14:43:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:43:16 INFO ethernet_switch.py:315 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-c07d6747-32ae-4efb-90ef-771db6deded4 removed from port 3
+2025-12-15 14:43:16 INFO nio.py:73 NIO udp-c07d6747-32ae-4efb-90ef-771db6deded4 has been deleted
+2025-12-15 14:43:16 INFO qemu_vm.py:1358 Execute QEMU monitor command: set_link gns3-0 off
+2025-12-15 14:43:16 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:37569 after 0.0105 seconds
+2025-12-15 14:43:16 INFO qemu_vm.py:1622 QEMU VM "UbuntuCloudGuest-1" [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: NIO UDP removed from adapter 0
+2025-12-15 14:43:16 INFO base_node.py:370 Qemu: 'UbuntuCloudGuest-1' [0af5efd5-c7df-46a4-abac-c94bac1dcb07]: is closing
+2025-12-15 14:43:16 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:43283
+2025-12-15 14:43:16 INFO hypervisor.py:200 Stopping uBridge process PID=24958
+2025-12-15 14:43:17 INFO qemu_vm.py:1273 Stopping QEMU VM "UbuntuCloudGuest-1" PID=24956
+2025-12-15 14:43:17 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 14:43:18 ERROR images.py:293 Can't write digest of /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img: [Errno 2] No such file or directory: '/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/0af5efd5-c7df-46a4-abac-c94bac1dcb07/ubuntu-22.04-server-cloudimg-amd64.img.md5sum'
+2025-12-15 14:43:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:43:26 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:43:28 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:43:28 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:43:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:43:31 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:47:19 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:19 INFO project.py:552 Creating node from template "Ubuntu Cloud Guest" on compute "airneos (controller)" [local]
+2025-12-15 14:47:19 INFO qemu_vm.py:294 QEMU VM 'UbuntuCloudGuest-1' [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the platform x86_64
+2025-12-15 14:47:19 INFO qemu_vm.py:272 QEMU VM "UbuntuCloudGuest-1" [UbuntuCloudGuest-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-12-15 14:47:19 INFO qemu_vm.py:693 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6]: MAC address changed to 0c:28:d2:87:00:00
+2025-12-15 14:47:19 INFO qemu_vm.py:637 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6]: number of Ethernet adapters changed to 1
+2025-12-15 14:47:19 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-12-15 14:47:19 INFO qemu_vm.py:189 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has been created
+2025-12-15 14:47:19 INFO base_node.py:323 Qemu: UbuntuCloudGuest-1 [a628d287-4a7d-4944-aa3b-b554f26206f6] created
+2025-12-15 14:47:19 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:19 INFO qemu_vm.py:418 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda disk interface to virtio
+2025-12-15 14:47:19 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:47:19 INFO qemu_vm.py:839 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the RAM to 1024
+2025-12-15 14:47:19 INFO qemu_vm.py:663 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6]: adapter type changed to virtio-net-pci
+2025-12-15 14:47:19 INFO qemu_vm.py:814 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the process priority to normal
+2025-12-15 14:47:19 INFO qemu_vm.py:950 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU options to -nographic
+2025-12-15 14:47:20 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:20 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:20 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:47:22 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:22 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:22 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:47:23 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:23 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:47:24 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:24 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:47:25 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:25 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:25 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:47:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:26 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 14:47:28 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:28 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 14:47:34 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:34 INFO qemu_vm.py:313 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:34 INFO qemu_vm.py:520 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6] has set the QEMU cdrom image path to /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso
+2025-12-15 14:47:39 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:39 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-9d0c633a-b2e3-474c-86c4-66526d3b25bf bound to port 3
+2025-12-15 14:47:39 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: port 3 set as an access port in VLAN 1
+2025-12-15 14:47:39 INFO qemu_vm.py:1562 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6]: NIO UDP added to adapter 0
+2025-12-15 14:47:39 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:39 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:42 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:47:42 INFO qemu_vm.py:1358 Execute QEMU monitor command: info status
+2025-12-15 14:47:42 INFO qemu_vm.py:1358 Execute QEMU monitor command: info status
+2025-12-15 14:47:42 INFO router.py:882 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost status set to 2
+2025-12-15 14:47:42 INFO router.py:839 Router "RZ-3" [b047b656-0188-4631-8f93-23df07fe6b4a]: ghost file set to "/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/c7200-adventerprisek9-mz.152-4.S6.image-512.ghost"
+2025-12-15 14:47:42 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:40793 after 0.0107 seconds
+2025-12-15 14:47:42 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:45995 after 0.0109 seconds
+2025-12-15 14:47:42 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/qemu-img.log
+2025-12-15 14:47:42 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:47:42 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/qemu-img.log
+2025-12-15 14:47:42 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img create -o backing_file=/home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img -F qcow2 -f qcow2 /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/hda_disk.qcow2
+2025-12-15 14:47:42 INFO qemu_vm.py:1528 QEMU VM is not paused to be resumed, current status is running
+2025-12-15 14:47:42 INFO qemu_vm.py:1528 QEMU VM is not paused to be resumed, current status is running
+2025-12-15 14:47:42 INFO base_node.py:942 Qemu: 'UbuntuCloudGuest-1' [a628d287-4a7d-4944-aa3b-b554f26206f6]:local UDP tunnel created between port 10114 and 10115
+2025-12-15 14:47:42 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name UbuntuCloudGuest-1 -m 1024M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -cdrom /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid a628d287-4a7d-4944-aa3b-b554f26206f6 -serial telnet:127.0.0.1:5029,server,nowait -monitor tcp:127.0.0.1:40949,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:28:d2:87:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10115,localaddr=127.0.0.1:10114 -nographic
+2025-12-15 14:47:42 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/qemu.log
+2025-12-15 14:47:42 INFO qemu_vm.py:1184 QEMU VM "UbuntuCloudGuest-1" started PID=26277
+2025-12-15 14:47:42 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35861
+2025-12-15 14:47:42 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35861']
+2025-12-15 14:47:42 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/ubridge.log
+2025-12-15 14:47:42 INFO hypervisor.py:171 ubridge started PID=26279
+2025-12-15 14:47:42 INFO base_node.py:788 Hypervisor 0.0.0.0:35861 has successfully started
+2025-12-15 14:47:42 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35861 after 0.1011 seconds
+2025-12-15 14:47:42 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:40949 after 0.0106 seconds
+2025-12-15 14:47:42 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5029, external port = 5028)
+2025-12-15 14:57:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:57:18 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:35861
+2025-12-15 14:57:18 INFO hypervisor.py:200 Stopping uBridge process PID=26279
+2025-12-15 14:57:18 INFO qemu_vm.py:1273 Stopping QEMU VM "UbuntuCloudGuest-1" PID=26277
+2025-12-15 14:57:18 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 14:57:20 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 14:57:20 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/qemu-img.log
+2025-12-15 14:57:20 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/ubuntu-22.04-server-cloudimg-amd64.img
+2025-12-15 14:57:20 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name UbuntuCloudGuest-1 -m 1024M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -cdrom /home/lm001/GNS3/images/QEMU/ubuntu-cloud-init-data.iso -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid a628d287-4a7d-4944-aa3b-b554f26206f6 -serial telnet:127.0.0.1:5029,server,nowait -monitor tcp:127.0.0.1:36211,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:28:d2:87:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10115,localaddr=127.0.0.1:10114 -nographic
+2025-12-15 14:57:20 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/qemu.log
+2025-12-15 14:57:20 INFO qemu_vm.py:1184 QEMU VM "UbuntuCloudGuest-1" started PID=29260
+2025-12-15 14:57:20 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:32875
+2025-12-15 14:57:20 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:32875']
+2025-12-15 14:57:20 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/a628d287-4a7d-4944-aa3b-b554f26206f6/ubridge.log
+2025-12-15 14:57:20 INFO hypervisor.py:171 ubridge started PID=29262
+2025-12-15 14:57:20 INFO base_node.py:788 Hypervisor 0.0.0.0:32875 has successfully started
+2025-12-15 14:57:20 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:32875 after 0.1012 seconds
+2025-12-15 14:57:20 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:36211 after 0.0107 seconds
+2025-12-15 14:57:20 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5029, external port = 5028)
+2025-12-15 15:01:28 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_startup-config.cfg
+2025-12-15 15:01:28 INFO router.py:1762 saving private-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_private-config.cfg
+2025-12-15 15:02:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:02:29 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:32875
+2025-12-15 15:02:29 INFO hypervisor.py:200 Stopping uBridge process PID=29262
+2025-12-15 15:02:29 INFO qemu_vm.py:1273 Stopping QEMU VM "UbuntuCloudGuest-1" PID=29260
+2025-12-15 15:02:29 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 15:03:32 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:03:32 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:41131
+2025-12-15 15:03:32 INFO hypervisor.py:200 Stopping uBridge process PID=10908
+2025-12-15 15:03:32 INFO qemu_vm.py:1273 Stopping QEMU VM "AlpineLinuxVirt-1" PID=10905
+2025-12-15 15:03:32 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 15:03:34 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:03:34 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu-img.log
+2025-12-15 15:03:34 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:03:34 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid aaf607c3-731f-435b-976c-af66ff35760b -serial telnet:127.0.0.1:5017,server,nowait -monitor tcp:127.0.0.1:44401,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f6:07:c3:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10109,localaddr=127.0.0.1:10108 -display none
+2025-12-15 15:03:34 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu.log
+2025-12-15 15:03:34 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=31053
+2025-12-15 15:03:34 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34397
+2025-12-15 15:03:34 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34397']
+2025-12-15 15:03:34 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/ubridge.log
+2025-12-15 15:03:34 INFO hypervisor.py:171 ubridge started PID=31056
+2025-12-15 15:03:34 INFO base_node.py:788 Hypervisor 0.0.0.0:34397 has successfully started
+2025-12-15 15:03:34 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34397 after 0.1012 seconds
+2025-12-15 15:03:34 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:44401 after 0.0106 seconds
+2025-12-15 15:03:34 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5017, external port = 5020)
+2025-12-15 15:04:57 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:04:57 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:34397
+2025-12-15 15:04:57 INFO hypervisor.py:200 Stopping uBridge process PID=31056
+2025-12-15 15:04:57 INFO qemu_vm.py:1273 Stopping QEMU VM "AlpineLinuxVirt-1" PID=31053
+2025-12-15 15:04:57 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 15:04:58 INFO router.py:1751 saving startup-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_startup-config.cfg
+2025-12-15 15:04:58 INFO router.py:1762 saving private-config to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/dynamips/b047b656-0188-4631-8f93-23df07fe6b4a/configs/i1_private-config.cfg
+2025-12-15 15:05:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:05:04 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu-img.log
+2025-12-15 15:05:04 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:05:04 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid aaf607c3-731f-435b-976c-af66ff35760b -serial telnet:127.0.0.1:5017,server,nowait -monitor tcp:127.0.0.1:36993,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f6:07:c3:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10109,localaddr=127.0.0.1:10108 -display none
+2025-12-15 15:05:04 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu.log
+2025-12-15 15:05:04 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=31505
+2025-12-15 15:05:04 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35249
+2025-12-15 15:05:04 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35249']
+2025-12-15 15:05:04 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/ubridge.log
+2025-12-15 15:05:04 INFO hypervisor.py:171 ubridge started PID=31507
+2025-12-15 15:05:04 INFO base_node.py:788 Hypervisor 0.0.0.0:35249 has successfully started
+2025-12-15 15:05:05 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35249 after 0.1012 seconds
+2025-12-15 15:05:05 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:36993 after 0.0107 seconds
+2025-12-15 15:05:05 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5017, external port = 5020)
+2025-12-15 15:05:38 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:05:39 INFO ethernet_switch.py:315 Ethernet switch "Switch1" [524b2f4e-bb44-40e5-bfd3-d24040864c81]: NIO udp-9d0c633a-b2e3-474c-86c4-66526d3b25bf removed from port 3
+2025-12-15 15:05:39 INFO nio.py:73 NIO udp-9d0c633a-b2e3-474c-86c4-66526d3b25bf has been deleted
+2025-12-15 15:05:39 INFO qemu_vm.py:1622 QEMU VM "UbuntuCloudGuest-1" [a628d287-4a7d-4944-aa3b-b554f26206f6]: NIO UDP removed from adapter 0
+2025-12-15 15:05:39 INFO base_node.py:370 Qemu: 'UbuntuCloudGuest-1' [a628d287-4a7d-4944-aa3b-b554f26206f6]: is closing
+2025-12-15 15:05:49 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:05:49 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:05:50 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:05:50 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 15:06:40 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:06:40 INFO qemu_vm.py:313 QEMU VM "Debian-1" [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/debian-12.6.qcow2
+2025-12-15 15:06:40 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:06:40 INFO qemu_vm.py:313 QEMU VM "AlpineLinuxVirt-1" [aaf607c3-731f-435b-976c-af66ff35760b] has set the QEMU hda_disk_image path to /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:09:21 INFO server.py:264 connection closed
+2025-12-15 15:09:21 INFO server.py:264 connection closed
+2025-12-15 15:09:25 INFO projects.py:304 Client has disconnected from notification stream for project ID 'cf71a6b7-4583-4773-8ae9-7c49946c24b7' (WebSocket method)
+2025-12-15 15:09:25 INFO controller.py:221 Client 127.0.0.1:58054 has disconnected from controller WebSocket
+2025-12-15 15:09:26 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 INFO websockets_impl.py:272 ('127.0.0.1', 35568) - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg5NDE2Nn0.0BcZoSOuhokfDo7vfmAiWuB4oDaRL8NM55jDheWABpk" [accepted]
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 INFO server.py:643 connection open
+2025-12-15 15:09:29 INFO controller.py:214 New client 127.0.0.1:35568 has connected to controller WebSocket
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 INFO websockets_impl.py:272 ('127.0.0.1', 35578) - "WebSocket /v3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2NTg5NDE2Nn0.0BcZoSOuhokfDo7vfmAiWuB4oDaRL8NM55jDheWABpk" [accepted]
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 INFO server.py:643 connection open
+2025-12-15 15:09:29 INFO projects.py:297 New client has connected to the notification stream for project ID 'cf71a6b7-4583-4773-8ae9-7c49946c24b7' (WebSocket method)
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:09:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:10:57 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:10:57 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:35249
+2025-12-15 15:10:57 INFO hypervisor.py:200 Stopping uBridge process PID=31507
+2025-12-15 15:10:57 INFO qemu_vm.py:1273 Stopping QEMU VM "AlpineLinuxVirt-1" PID=31505
+2025-12-15 15:10:57 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 15:10:57 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu-img.log
+2025-12-15 15:10:57 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:10:57 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid aaf607c3-731f-435b-976c-af66ff35760b -serial telnet:127.0.0.1:5017,server,nowait -monitor tcp:127.0.0.1:43867,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f6:07:c3:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10109,localaddr=127.0.0.1:10108 -display none
+2025-12-15 15:10:57 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu.log
+2025-12-15 15:10:57 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=33361
+2025-12-15 15:10:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44935
+2025-12-15 15:10:57 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44935']
+2025-12-15 15:10:57 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/ubridge.log
+2025-12-15 15:10:57 INFO hypervisor.py:171 ubridge started PID=33363
+2025-12-15 15:10:57 INFO base_node.py:788 Hypervisor 0.0.0.0:44935 has successfully started
+2025-12-15 15:10:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44935 after 0.1012 seconds
+2025-12-15 15:10:57 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:43867 after 0.0108 seconds
+2025-12-15 15:10:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5017, external port = 5020)
+2025-12-15 15:22:24 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:22:24 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:44935
+2025-12-15 15:22:24 INFO hypervisor.py:200 Stopping uBridge process PID=33363
+2025-12-15 15:22:24 INFO qemu_vm.py:1273 Stopping QEMU VM "AlpineLinuxVirt-1" PID=33361
+2025-12-15 15:22:24 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 15:22:26 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-12-15 15:22:26 INFO qemu_vm.py:1975 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu-img.log
+2025-12-15 15:22:26 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/lm001/GNS3/images/QEMU/alpine-virt-3.18.4.qcow2
+2025-12-15 15:22:26 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name AlpineLinuxVirt-1 -m 128M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid aaf607c3-731f-435b-976c-af66ff35760b -serial telnet:127.0.0.1:5017,server,nowait -monitor tcp:127.0.0.1:36529,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device virtio-net-pci,mac=0c:f6:07:c3:00:00,speed=10000,duplex=full,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10109,localaddr=127.0.0.1:10108 -display none
+2025-12-15 15:22:26 INFO qemu_vm.py:1177 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/qemu.log
+2025-12-15 15:22:26 INFO qemu_vm.py:1184 QEMU VM "AlpineLinuxVirt-1" started PID=36086
+2025-12-15 15:22:26 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34867
+2025-12-15 15:22:26 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34867']
+2025-12-15 15:22:26 INFO hypervisor.py:165 logging to /home/lm001/GNS3/projects/cf71a6b7-4583-4773-8ae9-7c49946c24b7/project-files/qemu/aaf607c3-731f-435b-976c-af66ff35760b/ubridge.log
+2025-12-15 15:22:26 INFO hypervisor.py:171 ubridge started PID=36088
+2025-12-15 15:22:26 INFO base_node.py:788 Hypervisor 0.0.0.0:34867 has successfully started
+2025-12-15 15:22:26 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34867 after 0.1022 seconds
+2025-12-15 15:22:26 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:36529 after 0.0106 seconds
+2025-12-15 15:22:26 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5017, external port = 5020)
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO server.py:164 Server has got signal SIGHUP, reloading...
+2025-12-15 16:21:20 INFO server.py:263 Shutting down
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO __init__.py:197 Controller is reloading
+2025-12-15 16:21:20 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-12-15 16:21:20 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-12-15 16:21:20 INFO __init__.py:286 Built-in appliances are installed in '/home/lm001/.local/share/GNS3/appliances'
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO router.py:339 Dynamips hypervisor process has stopped, return code: -15
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 16:21:20 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 16:21:20 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 16:21:20 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-12-15 16:21:20 INFO server.py:264 connection closed
+2025-12-15 16:21:20 INFO server.py:305 Waiting for background tasks to complete. (CTRL+C to force quit)
+2025-12-15 16:21:20 INFO notifications.py:50 Client 127.0.0.1:36064 has disconnected from compute WebSocket
+2025-12-15 16:21:20 INFO controller.py:221 Client 127.0.0.1:35568 has disconnected from controller WebSocket
+2025-12-15 16:21:20 INFO controller.py:221 Client 127.0.0.1:57910 has disconnected from controller WebSocket
+2025-12-15 16:21:20 INFO controller.py:221 Client 127.0.0.1:33874 has disconnected from controller WebSocket
+2025-12-15 16:21:20 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-12-15 16:21:20 INFO tasks.py:238 Stopping monitoring for new images in '/home/lm001/GNS3/images'
+2025-12-15 16:21:22 INFO projects.py:304 Client has disconnected from notification stream for project ID 'cf71a6b7-4583-4773-8ae9-7c49946c24b7' (WebSocket method)
+2025-12-15 16:21:22 INFO projects.py:304 Client has disconnected from notification stream for project ID '80d14a6b-421a-45e2-8ae4-cce3fed6737f' (WebSocket method)
+2025-12-15 16:21:22 INFO projects.py:304 Client has disconnected from notification stream for project ID '6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf' (WebSocket method)
+2025-12-15 16:21:27 INFO projects.py:313 Project 'cf71a6b7-4583-4773-8ae9-7c49946c24b7' is automatically closing due to no client listening
+2025-12-15 16:21:27 INFO projects.py:313 Project '80d14a6b-421a-45e2-8ae4-cce3fed6737f' is automatically closing due to no client listening
+2025-12-15 16:21:27 INFO projects.py:313 Project '6c3d2d0f-f467-4f9c-8dd0-bde3f5d957cf' is automatically closing due to no client listening
+2025-12-15 16:21:27 INFO on.py:67 Waiting for application shutdown.
+2025-12-15 16:21:27 INFO __init__.py:181 Controller is stopping
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'WEB' [62ff43e4-813f-471d-8f47-5ff15197f280]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "WEB" [62ff43e4-813f-471d-8f47-5ff15197f280] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'DB' [161f8857-fdca-45f5-a21f-b0a7630f5bed]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "DB" [161f8857-fdca-45f5-a21f-b0a7630f5bed] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'IT' [d32677e4-80b0-400a-ba01-44ae45aae32b]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "IT" [d32677e4-80b0-400a-ba01-44ae45aae32b] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'NFS' [ab4e6aa1-e2fd-4ab5-9c4c-5ceb31a36727]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "NFS" [ab4e6aa1-e2fd-4ab5-9c4c-5ceb31a36727] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'NAT1' [22db3c67-6494-4055-8714-3e8d57bf6894]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "NAT1" [22db3c67-6494-4055-8714-3e8d57bf6894] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'Cloud1' [8afbd725-2dd6-4c52-b2ce-6b78d676198a]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "Cloud1" [8afbd725-2dd6-4c52-b2ce-6b78d676198a] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Builtin: 'Cloud1' [44fc321a-10f8-4304-bb9a-ca210a5b0714]: is closing
+2025-12-15 16:21:27 INFO cloud.py:252 Cloud "Cloud1" [44fc321a-10f8-4304-bb9a-ca210a5b0714] has been closed
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'R-Internet' [1559eba0-ae27-4859-96dd-e63e7a5840fa]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RB-1' [b922c079-de16-4970-b392-52b9b5d55913]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RB-3' [f156a634-f1c4-453e-b26b-265493eb590a]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RB-2' [7090c085-d462-4d3a-aa61-b6fd055334c6]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RB-4' [5967c1bb-45b0-4c7b-b240-26184db7fcf8]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RZ-4' [f5881a95-7b8d-484e-a9db-4e1641d171d8]: is closing
+2025-12-15 16:21:27 INFO base_node.py:370 Dynamips: 'RZ-3' [b047b656-0188-4631-8f93-23df07fe6b4a]: is closing
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete R-Internet: No data returned from 127.0.0.1:45055, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RB-1: No data returned from 127.0.0.1:34545, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RB-3: No data returned from 127.0.0.1:40775, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RB-2: No data returned from 127.0.0.1:40519, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RB-4: No data returned from 127.0.0.1:52675, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RZ-4: No data returned from 127.0.0.1:49347, Dynamips process running: False
+2025-12-15 16:21:28 WARNING router.py:428 Could not stop and delete RZ-3: No data returned from 127.0.0.1:44857, Dynamips process running: False
+2025-12-15 16:21:28 INFO base_node.py:370 Qemu: 'AlpineLinuxVirt-1' [f741f44a-ea32-48c8-a9c6-30730105643c]: is closing
+2025-12-15 16:21:28 INFO base_node.py:370 Qemu: 'UbuntuCloudGuest-1' [b56749f2-ccc4-4fd6-b75f-dd6ab76bddcb]: is closing
+2025-12-15 16:21:28 INFO base_node.py:370 Qemu: 'AlpineLinuxVirt-1' [aaf607c3-731f-435b-976c-af66ff35760b]: is closing
+2025-12-15 16:21:28 INFO base_node.py:370 Qemu: 'Debian-1' [5d575b9b-86d2-4f11-92b8-5fbaf2c6a3b2]: is closing
+2025-12-15 16:21:28 INFO tasks.py:106 Disconnected from database
+2025-12-15 16:21:28 INFO on.py:76 Application shutdown complete.
+2025-12-15 16:21:28 INFO server.py:93 Finished server process [2459]
